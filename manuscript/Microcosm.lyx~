@@ -1,0 +1,3605 @@
+#LyX file created by tex2lyx 1.5.6
+\lyxformat 247
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%% LyX 1.5.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+
+
+
+
+\usepackage{geometry}
+
+\geometry{verbose,letterpaper,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+
+
+\usepackage{booktabs}
+
+\usepackage{textcomp}
+
+
+
+
+
+
+
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+
+%% A simple dot to overcome graphicx limitations
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+ 
+
+\usepackage{amsfonts}
+
+
+
+% \usepackage{biocon}
+% 
+% \newplant{potr}{Populus tremuloides}
+% \newplant{tsca}{Tsuga canadensis}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+% \newfungus{}
+
+% Title Page
+\author{David LeBauer}
+\date{\today}
+
+\AtBeginDocument{
+  \def\labelitemii{\(\circ\)}
+  \def\labelitemiii{\(\cdot\)}
+}
+
+
+\makeatother
+
+
+\end_preamble
+\options a4paper
+\language babel
+\inputencoding latin9
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize 12
+\spacing double
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth -1
+\tocdepth -1
+\paragraph_separation indent
+\defskip medskip
+\quotes_language babel
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+Fungal Diversity and Decomposition Microcosm Study
+\end_layout
+
+\begin_layout Section
+
+Abstract
+\end_layout
+
+\begin_layout Section
+
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+Because humans have increased rates of species extinctions and local population declines, it is important to understand how these losses affect ecosystem functioning. The impact of this biodiversity loss on the habitability of our biosphere is fundamental to the most dire arguments for the conservation of biodiversity 
+\begin_inset LatexCommand \citep{schwartz2000lbe,ehrlich2008wdb}
+
+\end_inset
+
+. At the same time, the models that are used to predict future climates and carbon budgets assume that the loss and redistribution of species do not have the same substantial effects on carbon cycling as the rates of fossil fuel combustion and climate change will. This assumption requires that ecosystem functions only depend on environmental conditions and resource availability rather than on the distribution of organisms and biomes 
+\begin_inset LatexCommand \citep{solomon2007psb}
+
+\end_inset
+
+. Although we have ample evidence that the number and identity of species does affect many ecosystem functions 
+\begin_inset LatexCommand \citet{cardinale2006ebf}
+
+\end_inset
+
+, there is insufficient empirical data to incorporate ecological interactions into the predictions made by the IPCC. By omitting biodiversity effects, the IPCC implicitly assumes that individual species are functionally redundant within an ecosystem or land cover type. For example, these models use temperature, moisture, and substrate availability but not species to predict respiration of carbon by the biosphere to the atmosphere. Not only do biodiversity effects on production and decompositoin affect the concentration of CO
+\begin_inset Formula $_2$
+\end_inset
+
+ in our atmposphere, CO
+\begin_inset Formula $_2$
+\end_inset
+
+ and other global change agents usually alter the structure of decomposer communities 
+\begin_inset LatexCommand \citep{allison2008rrr}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+For Aspen leaves decomposing in a boreal forest, fungal enzymes that target lignin and cellulose provide a likely link between fungal species diversity and function. If a group of these fungi produce the same enzymes, then we could predict that the species in this group are functionally redundant. In this case we would not expect that the number of species present would have an effect on enzyme activity or decomposition. On the other hand, if species vary in the enzymes that they produce, then they should exhibit analagous variation in the substrates that they decompose. In this case, the decomposition of a complex substrate like Aspen leaves should increase when multiple species are present if the species target different chemicals within the leaf.
+\end_layout
+
+\begin_layout Standard
+
+We know that species are not completely redundant because most previous studies show that there is a positive effect of species number and identity on functions at many trophic levels 
+\begin_inset LatexCommand \citep{schwartz2000lbe,cardinale2006ebf}
+
+\end_inset
+
+, including decomposition rate 
+\begin_inset LatexCommand \citep{salonius1981mcf,tiunov2005fir,setala2004dro}
+
+\end_inset
+
+. In addition, previous studies clearly demonstrate that species identity is an important component of the biodiversity - ecosystem link 
+\begin_inset LatexCommand \citet{cardinale2006ebf}
+
+\end_inset
+
+. Compared to the kinetics of fossil fuel combustion to CO
+\begin_inset Formula $_2$
+\end_inset
+
+, we know very little about the biological catalysts that account for the much greater flux of CO
+\begin_inset Formula $_2$
+\end_inset
+
+that is respired by the biosphere. This lack of knowledge represents a dramatic gap in our ability to predict future carbon budgets under global change.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%<sinsabaugh and moorhead guild based decomposer model>
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%<transition from last pp> 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%next to do: collect species traits
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%The goal is to improve our ability to restore functioning to degraded ecosystem 
+\backslash
+citep{chapin2000ccb}.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%very frustrated here not to include traits as continuous or even grouped variables
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%I also realize now that function really was the more important variable
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Explanations for this relationship can be categorized as either biotic interactions or sampling effect.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+Because we are rapidly loosing species, we should be concerned that the magnitude of biogeochemical fluxes will decline with declining biodiversity. The primary biotic mechanism used to explain the link between species diversity and function is niche partitioning 
+\begin_inset LatexCommand \citep{tilman1997pde}
+
+\end_inset
+
+. Niche partitioning results from variation in species traits related to the use of available resources. Niche partitioning predicts that increasing the number of species, on average, increases the diversity of resources that can be utilized. When two species utilize different substrates, total substrate utilization should increase with two species compared to either species in monoculture unless there is an antagonsitic interaction. Plant litter is a primarily a matrix of cellulose interlinked with and stabilized by lignin, and the decomposition of lignin can increase the amount of cellulose that is available. Because fungi vary in their ability to produce enzymes, fungal species that target different substrates within this matrix can decompose a complex substrate more rapidly when grown as a pair than when grown individually. For example, decomposition of cellulose by 
+\emph on
+Chaetomium thermophile
+\emph default
+ increased when a non-cellulolytic fungus, 
+\emph on
+Thermomyces lanuginosusa
+\emph default
+ was present 
+\begin_inset LatexCommand \citep{deacon1985dfp}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+I hypothesized that decomposition of Aspen litter would increase with the number of species in laboratory fungal communities. Furthermore, I predicted that enzyme activities would increase with species number. To evaluate relationships among the diversity of fungal communities, enzyme activity, and decomposition, I isolated functionally diverse fungi and conducted a laboratory microcosm experiment in which I manipulated species number.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Setala and McLean concluded that niche partitioning was responsible for the observed increase in decomposition in high relative to low diversity fungal communities 
+\backslash
+citepp{setala2004dro}.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% By contrast, the production of PPO is a trait that is primarily found among white-rot Basidiomycetes, although  Ascomycetes and Basidiomycetes 
+\backslash
+citepp{baldrian2006flo}, they are often .
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+Methods
+\end_layout
+
+\begin_layout Subsection
+
+Isolation of Fungi
+\end_layout
+
+\begin_layout Standard
+
+Fungi were collected from boreal forests near Delta Junction, Alaska 63
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+55'N, 145
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+44'W. These forests are characterized by intermittent stand replacing fires that are followed by succession of Aspen (
+\shape italic
+Populus tremuloides
+\shape default
+) that is subsequently replaced by spruce (
+\shape italic
+Tsuga canadensis
+\shape default
+). This study area and its ecology are described in detail by Treseder et. al. (2004)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+nocite{treseder2004raf}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+I cultured Basidiomycetes directly from mushroom tissue, decomposing wood, and soil using selective malt yeast agar (MYA) media (5 g malt extract, 5 g yeast extract, 20 g agar, 2 mg phenyl-phenol and 1.5 mg benomyl per liter). Other fungi were isolated from soil in minimal nutrient agar with either glucose or bismuth sulphite + tannic acid plus [Xmolar] Streptomycin and [Xmolar] Chlrorotetracyclin as bacteriocide. After isolation, I maintained all cultures on MYA without microbiocides. To identify the fungal isolates, we extracted DNA using the PowerSoilDNA(?) kit (MoBio Laboratories), amplified the 18S ITS region using polymerase chain reaction, and sent the DNA products to (company, location) for sequencing. I chose eleven basidiomycetes with differing fruiting morphologies and growth rates on malt yeast agar. In addition, I selected five frequently found non-basidiomycete fungi from soil cultures (Table 
+\begin_inset LatexCommand \citet{tab:IsolateTable}
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Paragraph
+
+Experimental Design
+\end_layout
+
+\begin_layout Standard
+
+I randomly assigned an the sixteen isolates to the one, two, four, and eight species assemblages with each species represented equally at each level. The experimental unit of replication was the specific combination of species. The Aspen litter samples used as substrate were collected from a 15-year old Aspen forest near Delta Junction, air dried, placed in 1-mm mesh nylon bags, and affixed to the soil surface in an 80-year old black spruce (Picea mariana) forest in September 2005 and collected in September 2006. After collection of the partially decomposed Aspen litter, I dried it overnight at 60
+\begin_inset Formula $^{circ}$
+\end_inset
+
+C, ground it in a coffee-mill and sterilized it by exposure to 2.5-3.0 Mrad of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+-irradiation in a self-sheilded gamma irradiator with a CS-137 source (Shepherd and Associates, Mark I).
+\end_layout
+
+\begin_layout Standard
+
+Each combination of species was placed into a 40 mL glass vial with rubber septa that permitted me to remove gas samples with a needle (product id and source). First, we added 1.00 g of 30-60 grit sand to each of sixty microcosms. autoclaved sand + tube at 120
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C for 40 minutes. Next, I weighed approximately 50 mg of 
+\begin_inset Formula $\gamma$
+\end_inset
+
+-irradiated Aspen litter into each microcosm and recorded the mass of litter added. To inoculate microcosms, I removed approximately 125 
+\begin_inset Formula $mm^3$
+\end_inset
+
+ of each culture growing on malt extract agar and homogenized this with 0.5 mL <cation solution> in a 1.5 ml eppendorf tube, and then transferred 0.5 mL to a 15 mL volume of <cation solution>. For each combination of species, I evenly mixed the component species in eppendorf tubes and transfered 0.6 mL of the mixture to a microcosm tube.
+\end_layout
+
+\begin_layout Paragraph
+
+Decomposition rates
+\end_layout
+
+\begin_layout Standard
+
+I sampled CO
+\begin_inset Formula $_2$
+\end_inset
+
+ concentration in microcosms at seven time points (6, 9, 15, 25, 45, 76, and 111 days). At each time point, I used a syringe to remove 10 ml of gas from the headspace, injected this into an EGM-4 infrared gas analyzer (PP Systems, Amesbury, MA). After sampling, I removed caps under a sterile laminar flow hood to allow headspace to equilibrate with the ambient air for at least 5 min. I calculated total decomposition as the total cumulative CO
+\begin_inset Formula $_2$
+\end_inset
+
+-C produced between replacing the cap and the next sampling time. Total CO
+\begin_inset Formula $_2$
+\end_inset
+
+ released was divided by the initial mass of the litter in each vial. I report total decomposition for the 111 day study in units of mg CO
+\begin_inset Formula $_2$
+\end_inset
+
+-C respired per g litter at the beginning of the experiment.
+\end_layout
+
+\begin_layout Paragraph
+
+Enzyme Activities
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%  Lignin and cellulose account for most of the carbon flux into terrestrial ecosystems, including leaf litter. 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ At the end of the 111 day study, I used colorometric assays 
+\begin_inset LatexCommand \citep{allison2006aee}
+
+\end_inset
+
+ to determine the activities of the cellulose degrading enzyme 
+\begin_inset Formula $\beta$
+\end_inset
+
+-glucosidase (BG) and the lignin degrading enzyme polyphenol oxidase (PPO). First I added 10 ml of 50 mM pH 5.0 acetate buffer to each microcosm, then I vigorously swrilled the vials on a culture rotating machine at 90 rpm for one hour to create a homogenized slurry of buffer, litter, sand, and fungi. Next, I added 50 
+\begin_inset Formula $\mu$
+\end_inset
+
+L of this homogenate to 150 
+\begin_inset Formula $\mu$
+\end_inset
+
+L of a substrate solution in a 96 well plate. In acetate buffer, I used 5mM 
+\begin_inset Formula $p$
+\end_inset
+
+-nitrophenyl-
+\begin_inset Formula $\beta$
+\end_inset
+
+-glucopyranosidase to assay BG activity and 50 mM pyrogallol, 50 mM EDTA to assay PPO activity. For each microcosm I ran seven analytical replicates and seven controls with homogenate and no substrate. In addition, I ran a a set of six controls for substrate absorbance with each 96 well plate. After combining homogenate and substrate, the reactions incubated 20
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+C for 2-4 hours on a rotary shaker that I set just slow enough to prevent the sample from shaking out of the wells. At the end of the BG assay, I added 5 
+\begin_inset Formula $\mu$
+\end_inset
+
+L of 1 M NaOH to terminate the reaction and develop color from the pNp products. I used absorbance at 405 nm to calculate activities based on the amount of pNp produced (for BG) or pyrogallol consumed (for PPO) from empirically determined extinction coefficients for each substrate 
+\begin_inset LatexCommand \citep{allison2006aee}
+
+\end_inset
+
+. Enzyme activities are expressed in units of 
+\begin_inset Formula $\mu$
+\end_inset
+
+mol substrate formed (for BG) or comsumed (PPO) 
+\begin_inset Formula $g^{-1}h^{-1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% 
+\backslash
+paragraph{Response Metrics} To parametarize the functional response, we will quantify growth rate (B) and time of maximum growth (M) in each microcosm. To do this, we will fit a generalized logistic growth curve to total CO$_2$ efflux (as functional response) such that, $$ 
+\backslash
+sum{CO_2} = A + 
+\backslash
+frac{C}{(1+T exp{-B(x-M)})^{1/T}} $$
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% where A and C are the lower and uppper asymptopes; M is time of max growth rate, B is growth rate, T is ?.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+Data Analysis
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%for each test, describe which results would support / which would lead me to reject my hypothesis
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% specify independent and dependent variable(s) for each test
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%order results to match order of statistical tests in methods section
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ To test the effect of species number on respiration and enzyme activity, I fit a log-linear regression with species number as the predictor and respiration or enzyme activity as the functional response variable. A positive slope significantly different from zero for any of these regressions would have supported my hypothesis that total decomposition and enzyme activity increases with species number. Next, I conducted an ANOVA with 16 binary variables indicating the presence or absence of each of the sixteen isolates as predictors and decomposition or enzyme activity as the response variable. I interpret a significant effect of one of the isolates as indication that the presence of that isolate had a disproportionate impact on the communities into which it was added. Furthermore, the sign of the coefficient indicated the direction of the isolate's effect. The absence of a selection effect was supported when none of the species had a significant effect on function when present. However, I can not formally partition selection without knowing the contribution of each species to the enzyme pool or CO
+\begin_inset Formula $_2$
+\end_inset
+
+ flux 
+\begin_inset LatexCommand \citep{loreau2001psc}
+
+\end_inset
+
+. If individual species affected decomposition or enzyme activity, I would conclude that species identity and not only species number affects function. Finally, I calculated and tested the correlations between enzyme activity and decomposition. I interpret a significant correlation as support for my hypothesis that enzyme activity is an important control on decomposition. I omitted CO
+\begin_inset Formula $_2$
+\end_inset
+
+ and enzyme data from two leaky microcosms and enzyme data from a tray of twenty-four tubes that were evenly distributed across treatments. All analyses were performed using the lm() function in R 
+\begin_inset LatexCommand \citep{rcore}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+
+Results
+\end_layout
+
+\begin_layout Standard
+
+Total CO
+\begin_inset Formula $_2$
+\end_inset
+
+ released increased with species diversity (
+\begin_inset Formula $P=0.003$
+\end_inset
+
+; 
+\begin_inset Formula $r^{2}=0.05$
+\end_inset
+
+)(Fig. 
+\begin_inset LatexCommand \ref{fig:obs.bg.v.spdiv}
+
+\end_inset
+
+). Similarly, activity of the enzyme BG also increased with species diversity (
+\begin_inset Formula $P<0.001$
+\end_inset
+
+; 
+\begin_inset Formula $r^{2}=0.16$
+\end_inset
+
+). In contrast, PPO activity was invariant with species number.
+\end_layout
+
+\begin_layout Standard
+
+Observed decomposition was not significantly affected by the presence of any single species (Fig. 
+\begin_inset LatexCommand \ref{fig:sp.presence.absence}
+
+\end_inset
+
+). BG was significantly elevated in microcosms that contained one of three isolates: 
+\emph on
+Trametes versicolor
+\emph default
+ (
+\begin_inset Formula $P=0.034$
+\end_inset
+
+), 
+\emph on
+Flammulina populicola
+\emph default
+ (
+\begin_inset Formula $P=0.014$
+\end_inset
+
+), or the unidentified Ascomycete (
+\begin_inset Formula $P<0.0001$
+\end_inset
+
+); presence of the unidentified Ascomycete also had a marginally significant negative effect on PPO (
+\begin_inset Formula $P=0.051$
+\end_inset
+
+). BG had only a marginally significant positive correlation with total CO
+\begin_inset Formula $_2$
+\end_inset
+
+ (
+\begin_inset Formula $P=0.07$
+\end_inset
+
+; 
+\begin_inset Formula $r^{2}=0.014$
+\end_inset
+
+). Finally, I found no correlation between total CO
+\begin_inset Formula $_2$
+\end_inset
+
+ and PPO activity.
+\end_layout
+
+\begin_layout Section
+
+Discussion
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%P1: the story
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+Total CO
+\begin_inset Formula $_2$
+\end_inset
+
+ released from Aspen litter increased as a log-linear function of the number of species added to the microcosm (Fig. 
+\begin_inset LatexCommand \ref{fig:obs.bg.v.spdiv}
+
+\end_inset
+
+). This response supports our hypothesis that the number of species present has a positive impact on decomposition. Similarly, the log-linear increase in BG activity with species number supports my second hypothesis, and provides a possible mechanism for the increase in decomposition rate. From these results, we conclude that species diversity is important to both decomposition and BG activity, but there is no link between diversity and PPO activity.
+\end_layout
+
+\begin_layout Standard
+
+Differences in the ecology of BG and PPO enzymes likely explain the different responses of these two enzymes. PPO reflects the activity of a large family of oxidative enzymes 
+\begin_inset LatexCommand \citep{baldrian2006flo}
+
+\end_inset
+
+, and these enzymes target a diverse group of relatively recalcitrant polyphenols that are found at all stages of decomposition [ref]. Because the polyphenolic substrates targeted by PPO are diverse and abundant in leaves and soils, it is less likely that PPO will be substrate limited compared to BG. Rather than being limited by substrate availability, PPO production is more likely limited by the physical conditions that control the diffusion of enzymes and substrates and by the availability of other resources 
+\begin_inset LatexCommand \citep{sinsabaugh1994rae,moorhead2006tml}
+
+\end_inset
+
+. Both the availability of resources and the physical conditions were initially controlled in my present study, although nutrient cycling likely increased in the microcosms that had higher decomposition rates. Therefore, it is unlikely that nutrient availability limited PPO production because PPO activity and total CO
+\begin_inset Formula $_2$
+\end_inset
+
+ released were not correlated. BG is a more specialized enzyme that conducts a specific catalytic reaction to breakdown cellulose. Because of this substrate specificity, and because cellulose availability can be limited by lignin decomposition, BG may be more likely to be substrate limited than PPO. Although the BG activity only explained a small portion of the variationin decomposition in the present study, this finding in combination with the parallel responses of BG activity and CO
+\begin_inset Formula $_2$
+\end_inset
+
+ release to species number supports a link between enzyme production and decomposition. Such a relationship is consistent with biological models of decomposition 
+\begin_inset LatexCommand \citep{moorhead2006tml}
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%P2:
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% how relates to what other people have done?
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Two approaches to the study of diversity effects on funciton are:  removal from a native community and assemblage of isolates.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+Positive relationships between the number of fungal species and the rate of decomposition have been previously demonstrated in experimental microcosms 
+\begin_inset LatexCommand \citep{setala2004dro,robinson1993ncd,tiunov2005fir}
+
+\end_inset
+
+. Setala and McLean 
+\begin_inset LatexCommand \citep{setala2004dro}
+
+\end_inset
+
+ conclude that decomposition and response to diverse substrates increases with the number of saprophytic fungi. Furthermore, they find that the species number - function curve saturated above 2-6 species. Similarly, Tiunov and Sechu (2005) observe an increase in respiration of CO
+\begin_inset Formula $_2$
+\end_inset
+
+ from forest soil with increasing species number. The effect of species number decomposition of cellulose filters was additive, such that the respiration of cellulose was directly proportional to the number (one to five) of species present 
+\begin_inset LatexCommand \citep{tiunov2005fir}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+However, the opposite response also occurs. For example, Toljander et al. (2006) 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+nocite{toljander2006eff}
+\end_layout
+
+\end_inset
+
+ observe reduced decomposition rates with increasing species diversity. In another study, decomposition is higher with one species of fungus on sterilized straw compared to multiple species of fungi 
+\begin_inset LatexCommand \citep{janzen1995clc}
+
+\end_inset
+
+. Decomposition of litter in a pine forest was greater when litter was pre-inoculated with a single fungal isolate prior to being decomposed by native microflora in the field compared to litter that was not pre-inoculated 
+\begin_inset LatexCommand \citep{cox2001efi}
+
+\end_inset
+
+. In that study, Cox et al (2001) find an effect on litter chemistry but not on total decomposition when the species used in pre-innoculation was a lignin versus a cellulose degrading fungus. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%%%%unique additions of present study
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ Still, no previous study evaluates the effect of fungal species diversity on the activity of extracellular enzymes involved in decomposition. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Hedlund and Sjogren Ohrn 2000 did not see 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% contrast with elimination studies
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% dilution/fumigation
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%P3:
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%diversity w/changes related to global change
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+In the present study, we observe important effects of biodiversity on two important ecosystem functions. Species number has clear impacts on decomposition and BG activity, and species identity affects BG and PPO activities. The lack of an effect of species identity on CO
+\begin_inset Formula $_2$
+\end_inset
+
+ released is consistent with other research at the site from where I collected the fungi in this experiment. Despite the large changes in the species composition of the fungal community resulting from N addition, Allison et al (2008) observe no change in total fungal abundance or CO
+\begin_inset Formula $_2$
+\end_inset
+
+ efflux from the soil. This finding is consistent with the present study in which I find an effect of species number but not species identity on total CO
+\begin_inset Formula $_2$
+\end_inset
+
+ release. Most microbial communities are sensitive to components of global change including warming, increased CO
+\begin_inset Formula $_2$
+\end_inset
+
+, and fertilizer additions 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+citepp
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+allison2008rrr
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+. For example, experimental additions of nitrogen to a boreal forest dramatically reduced mushroom biomass eight fold and dramatically altered abundances of dominant Basidiomycetes, but did not change the total abundance of fungal in soil based on quantitative polymerase chain reaction (PCR) 
+\begin_inset LatexCommand \citep{allison2008mas}
+
+\end_inset
+
+. Furthermore, activities of the cellulose degrading enzyme 
+\begin_inset Formula $\beta$
+\end_inset
+
+-glucosidase increased with nitrogen but there was no change in the flux of CO
+\begin_inset Formula $_2$
+\end_inset
+
+. Despite the divergence of diversity and function, neither microbial biomass nor CO
+\begin_inset Formula $_2$
+\end_inset
+
+ flux was affected. Both decomposition and microbial biomass in this ecosystem were unaffected despite the changes in community composition and enzyme activity that were evident.
+\end_layout
+
+\begin_layout Standard
+
+we can conclude that fungal biodiversity is an important component of global biogeochemical cycling. Although most models of global change omit dynamic feedbacks between climate and biodiversity, it is clear from the present study that changes in biodiversity can impacts the rate of litter decomposition and the activities of cellulose degrading enzymes in boreal forests. Because warming, precipitation, and CO2 usually alter microbial community composition 
+\begin_inset LatexCommand \citep{allison2008rrr}
+
+\end_inset
+
+, we can conclude that these dynamic feedbacks can insert considerable uncertainty into global change and ecological forecasts.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%do any of the spp match up with what steve found?
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%P4 other types of envtl change
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%precip, warming, Allison and Mrtiny 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%P5 Potentially negative aspects of study: what to consider
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%assumptions of enz. assay
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+enzyme substrates are a single compound proxy for decomposition, but they do not represent the diversity of substrates and the physical and chemical conditions of the substrates in the litter 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% The sampling effect is one mechanism that would result in a positive diversity-function relationship. 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%selection effect - did not determine final yield of individual species, so not possible to partition selection from complimentarity sensu Hector and Loreau (2001) or Fox (2005) 
+\backslash
+citep{fox2005ise,loreau2001psc}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Although we are unable partition the selection effect from complementarity 
+\backslash
+citep{loreau2001psc}, none of the isolates caused significant deviations in  CO$_2$ release when they were present (Fig. 
+\backslash
+ref{fig:sp.presence.absence}).
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% On the other hand, BG activity was consistently elevated when 
+\backslash
+emph{Trametes versicolor}, 
+\backslash
+emph{Flammulina populicola}, or the unknown Ascomycete were present in a microcosm.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Furthermore, presence of the unknown Ascomycete depressed PPO activity.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Therefore, we were unable to find conclusive support for a link between these enzyme activities and total decomposition. 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Allison et al 2008 found that the most abundant fungi in a Boreal forest soil was almost completely absent under experimental N addition treatments intended to simulate increased N mineralization expected due to global warming. Under N addition, another group of basidiomycetes fungi and decreased the abundance of another group.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% Species: Boreal forest litter layer is dominated by saprotrophic fungi, including Basidomycetes and Ascomycetes. 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Basidiomycetes are most abundant fungi in boreal forest soils (O'Brian et al 2005, Allison et al 2008), mostly due to the presence of ectomycorrhizal fungi. 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Ascomycetes were found more abundant in litter than Basidiomycetes (Lindhal 2007).
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Future directions:
+\end_layout
+
+\begin_layout Standard
+
+It would be posible to use qPCR to estimate DNA copy number of individual isolates or microscopy with staining to estimate hyphal biovolume by species. This would permit the formal partitioning of the selection and complementarity effects with respect to total yield. In this case, the yield would be in DNA or volume- either of which could provide an indirect index of biomass. This would permit microbiologists to study soil organisms using analyses analogous to those used in studies of plant diversity and productivity. However, it is unclear if such biomass proxies would be as useful with respect to decomposition as biomass measurements are for plant production. First, plant biomass directly estimates the entire flux of carbon into the ecosystem. By contrast, microbial biomass is a small part of the much larger soil carbon pool, and the flux of carbon through respiration is the function most relevant to biogeochemical models. For applications relevant to predictive biogeochemical modeling, a more direct measure of carbon flux out of the ecosystem would be more useful. Howver, no methods are presently available to partition this flux according to the contribution of each species in a mixture or community. Although enzyme activity has not been convincingly linked to decomposition in the present study, knowing the contribution of individual species to the enzyme pool would provide a better understanding of the interactions among decomposer organisms 
+\begin_inset LatexCommand \citep{moorhead2006tml}
+
+\end_inset
+
+. Future applications of proteomics may enable us to quantify the contribution of enzymes from individual species. If this is possible, new insights into the links between community composition and ecosystem function will be possible.
+\end_layout
+
+\begin_layout Section
+
+Conclusions
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%Now we know that the number of species do have an effect on CO$_2$ cycling, but we are unsure why.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%species diversity affects ecosystem function.
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+Acknowledgements
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+bibliographystyle{plainnat}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset LatexCommand \bibtex[plainnat]{Microcosm}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float table
+placement p
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+\align center
+
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="18" columns="5">
+<features>
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%{0.75
+\backslash
+textwidth}%{@{
+\backslash
+extracolsep{
+\backslash
+fill}}}
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+toprule
+\end_layout
+
+\end_inset
+
+ Species 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+Group 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+BG 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+PPO 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+CO
+\begin_inset Formula $_2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+(
+\begin_inset Formula $\mu$
+\end_inset
+
+mol 
+\begin_inset Formula $g^{-1}$
+\end_inset
+
+litter 
+\begin_inset Formula $h^{-1}$
+\end_inset
+
+ ) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+(
+\begin_inset Formula $\mu$
+\end_inset
+
+mol 
+\begin_inset Formula $g^{-1}$
+\end_inset
+
+litter 
+\begin_inset Formula $h^{-1}$
+\end_inset
+
+) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+(total 
+\begin_inset Formula ${\text{CO}}_{2}$
+\end_inset
+
+-C 
+\begin_inset Formula $g^{-1}$
+\end_inset
+
+litter)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+midrule
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Ascomycete 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+A 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+5.1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 2.8 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+17 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 13.4 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+12.8 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 15.4 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Flammulina populicola
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,ag 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+3.7 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 2.1 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.06 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+5.3 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 4.8 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Trametes versicolor
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,pp 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+2.6 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.4 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+24 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.8 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Ambomucor sp
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+Z 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.12 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.1 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 1.5 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+16.5 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 3.9 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Collybia cirrhata
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,ag 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.03 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.1 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+10.9 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 5.3 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+unknown 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+H 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.2 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.1 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.3 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.1 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+18.4 (1)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Penicillium sp
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+A 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.1 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.8 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.7 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+22.3 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 17.8 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Polyporus varius
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,pp 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.1 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.9 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+18.6 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 8.1 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Rhizoctonia sp
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,scl 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+1.2 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 1.1 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+21.9 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.3 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.6 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 16.6 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Mortierellaceae
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+Z,scl 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+2.3 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 2.2 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+1.3 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.01 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+2.6 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 2.1 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Pholiota carbonaria
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,ag 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.2 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.02 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.7 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.6(2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.2 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.1 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Ceriporiopsis sp
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,pp 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.3 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.02 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.2 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.3 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.4 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.1 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Marchandiomyces sp
+\emph default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+1.1 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.9 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.4 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 0.2 (2) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+22.9 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 11.3 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Lyophyllum
+\emph default
+ sp 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,ag 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.2 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0.9 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+27.6 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 15.9 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\emph on
+Coprinus
+\emph default
+ sp 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+B,ag 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+0 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+4.7 (1) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+33.6 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 4.3 (2)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+bottomrule
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset LatexCommand \label{tab:IsolateTable}
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+Inidivual traits of isolates in monoculture. Enzyme activities presented as mean 
+\series bold
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+textpm
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\series default
+SE (n). Enzyme activities of polyphenol oxidase (PPO) and
+\begin_inset Formula $\beta$
+\end_inset
+
+-glucosidase (BG) are reported in
+\begin_inset Formula $\mu$
+\end_inset
+
+mol 
+\begin_inset Formula $g^{-1}$
+\end_inset
+
+litter 
+\begin_inset Formula $h^{-1}$
+\end_inset
+
+and total decomposition is reported in mg CO
+\begin_inset Formula $_2$
+\end_inset
+
+-C 
+\begin_inset Formula $g^{-1}$
+\end_inset
+
+litter over the course of the experiment. B = Basidiomycete; pp = Polypore; ag = Agaric; scl = Sclerotia-forming; A = Ascomycete, H= Hyphomycete, Z = Zygomycete
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics 
+	filename obsbgppo.png
+	width 5in
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+Effect of presence (gray bars) and absence (hollow bars) of each species on decomposition and enzyme activity. *** 
+\begin_inset Formula $P<0.0001$
+\end_inset
+
+, * 
+\begin_inset Formula $P < 0.05$
+\end_inset
+
+, 
+\begin_inset Formula $^{\dag}$
+\end_inset
+
+ 
+\begin_inset Formula $P = 0.051$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:sp.presence.absence}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename obsbgppovspdiv.png
+	width 4in
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Caption
+
+The effect of species diversity on total decomposition (
+\begin_inset Formula $P=0.03$
+\end_inset
+
+), 
+\begin_inset Formula $\beta$
+\end_inset
+
+-glucosidase activity (
+\begin_inset Formula $P<0.0001$
+\end_inset
+
+), and polyphenol oxidase activity (
+\begin_inset Formula $NS$
+\end_inset
+
+). Mean
+\begin_inset Formula $\pm$
+\end_inset
+
+SE.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset LatexCommand \label{fig:obs.bg.v.spdiv}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

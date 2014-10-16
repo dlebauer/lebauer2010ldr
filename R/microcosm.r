@@ -11,7 +11,7 @@
 
 
 ## WORKING DIRECTORY
-#setwd (dir = "C:/Users/David/Research/Microcosm/Rcode" )
+setwd(dir = "C:/Users/dlebauer/Documents/GitHub/lebauer2010ldr/data/" )
 ## Linux:
 #setwd (dir = "~/Research/Microcosm/Rcode" )
 
@@ -63,7 +63,7 @@ dat.mono <-
  nag.i <-  summaryBy( nag ~ iso.let,
    na.rm=TRUE,
    data=dat.mono,        
-   FUN=c(mean,sd)
+   FUN=c('mean','sd')
    )
  ugC.i <-  summaryBy( ugC_mg ~ iso.let,
    na.rm=TRUE,
@@ -122,6 +122,7 @@ write.csv ( dat.all, "dat.all.csv" )
     # MUST DEAL WITH THESE SEPARATELY...
     #WHICH ONES DIDNT GROW ?
 dat.live <- dat.all[dat.all$obs.c.tot>20,]
+write.csv ( dat.live, "dat.live.csv" )
 attach ( dat.live )
 
 #M########
